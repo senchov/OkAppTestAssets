@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 50f59b7af9f89df4890e21681f3a185d
+timeCreated: 1434643596
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: belt_l:Mesh
+    100002: body_l:Mesh3
+    100004: Center_Cloack
+    100006: Center_Cloack_1
+    100008: Center_Cloack_End
+    100010: Chest
+    100012: cloak_l:polySurface1
+    100014: Coffin
+    100016: coffin_l2:Mesh
+    100018: fase_l:polySurface1
+    100020: hand_left_l:Mesh
+    100022: hand_right_l:Mesh
+    100024: Hat
+    100026: Hat_End
+    100028: hat_l:Mesh2
+    100030: Head
+    100032: Hips
+    100034: joint14
+    100036: Left_Cloack
+    100038: Left_Cloack_1
+    100040: Left_Cloack_End
+    100042: Left_Elbow
+    100044: Left_Foot
+    100046: Left_Hand
+    100048: Left_Hand_1
+    100050: Left_Hand_End
+    100052: Left_Hip
+    100054: Left_Knee
+    100056: Left_Paunch
+    100058: Left_Shoulder
+    100060: Left_Toe
+    100062: Left_Toe_End
+    100064: Left_Tump
+    100066: LeftBoot
+    100068: Legt_Thumb_End
+    100070: LftLeg
+    100072: Main
+    100074: //RootNode
+    100076: Mortison
+    100078: Neck
+    100080: Right_Cloack
+    100082: Right_Cloack_1
+    100084: Right_Cloack_End
+    100086: Right_Elbow
+    100088: Right_Foot
+    100090: Right_Hand
+    100092: Right_Hand_1
+    100094: Right_Hip
+    100096: Right_Knee
+    100098: Right_Paunch
+    100100: Right_Shoulder
+    100102: Right_Shoulder_Helper
+    100104: Right_Toe
+    100106: Right_Toe_End
+    100108: RightBoot
+    100110: RightLeg
+    100112: Root
+    100114: Shouvel
+    100116: shouver_l:Mesh
+    100118: Spine_0
+    100120: Spine_1
+    400000: belt_l:Mesh
+    400002: body_l:Mesh3
+    400004: Center_Cloack
+    400006: Center_Cloack_1
+    400008: Center_Cloack_End
+    400010: Chest
+    400012: cloak_l:polySurface1
+    400014: Coffin
+    400016: coffin_l2:Mesh
+    400018: fase_l:polySurface1
+    400020: hand_left_l:Mesh
+    400022: hand_right_l:Mesh
+    400024: Hat
+    400026: Hat_End
+    400028: hat_l:Mesh2
+    400030: Head
+    400032: Hips
+    400034: joint14
+    400036: Left_Cloack
+    400038: Left_Cloack_1
+    400040: Left_Cloack_End
+    400042: Left_Elbow
+    400044: Left_Foot
+    400046: Left_Hand
+    400048: Left_Hand_1
+    400050: Left_Hand_End
+    400052: Left_Hip
+    400054: Left_Knee
+    400056: Left_Paunch
+    400058: Left_Shoulder
+    400060: Left_Toe
+    400062: Left_Toe_End
+    400064: Left_Tump
+    400066: LeftBoot
+    400068: Legt_Thumb_End
+    400070: LftLeg
+    400072: Main
+    400074: //RootNode
+    400076: Mortison
+    400078: Neck
+    400080: Right_Cloack
+    400082: Right_Cloack_1
+    400084: Right_Cloack_End
+    400086: Right_Elbow
+    400088: Right_Foot
+    400090: Right_Hand
+    400092: Right_Hand_1
+    400094: Right_Hip
+    400096: Right_Knee
+    400098: Right_Paunch
+    400100: Right_Shoulder
+    400102: Right_Shoulder_Helper
+    400104: Right_Toe
+    400106: Right_Toe_End
+    400108: RightBoot
+    400110: RightLeg
+    400112: Root
+    400114: Shouvel
+    400116: shouver_l:Mesh
+    400118: Spine_0
+    400120: Spine_1
+    4300000: belt_l:Mesh
+    4300002: body_l:Mesh3
+    4300004: cloak_l:polySurface1
+    4300006: fase_l:polySurface1
+    4300008: hand_left_l:Mesh
+    4300010: hand_right_l:Mesh
+    4300012: LftLeg
+    4300014: RightLeg
+    4300016: shouver_l:Mesh
+    4300018: coffin_l2:Mesh
+    4300020: hat_l:Mesh2
+    4300022: RightBoot
+    4300024: LeftBoot
+    7400000: Run
+    9500000: //RootNode
+    13700000: belt_l:Mesh
+    13700002: body_l:Mesh3
+    13700004: cloak_l:polySurface1
+    13700006: coffin_l2:Mesh
+    13700008: fase_l:polySurface1
+    13700010: hand_left_l:Mesh
+    13700012: hand_right_l:Mesh
+    13700014: hat_l:Mesh2
+    13700016: LeftBoot
+    13700018: LftLeg
+    13700020: RightBoot
+    13700022: RightLeg
+    13700024: shouver_l:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Coffin
+        weight: 1
+      - path: Main/Root
+        weight: 1
+      - path: Main/Root/Hips
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot/Left_Toe
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot/Left_Toe/Left_Toe_End
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot/Right_Toe
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot/Right_Toe/Right_Toe_End
+        weight: 1
+      - path: Main/Root/Spine_0
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack/Center_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack/Center_Cloack_1/Center_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack/Left_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack/Left_Cloack_1/Left_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Paunch
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack/Right_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack/Right_Cloack_1/Right_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Paunch
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/joint14
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Hand_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Hand_1/Left_Hand_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Tump
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Tump/Legt_Thumb_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head/Hat
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head/Hat/Hat_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand/Right_Hand_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand/Right_Hand_1/Shouvel
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Shoulder_Helper
+        weight: 1
+      - path: Mortison
+        weight: 1
+      - path: Mortison/belt_l:Mesh
+        weight: 1
+      - path: Mortison/body_l:Mesh3
+        weight: 1
+      - path: Mortison/cloak_l:polySurface1
+        weight: 1
+      - path: Mortison/coffin_l2:Mesh
+        weight: 1
+      - path: Mortison/fase_l:polySurface1
+        weight: 1
+      - path: Mortison/hand_left_l:Mesh
+        weight: 1
+      - path: Mortison/hand_right_l:Mesh
+        weight: 1
+      - path: Mortison/hat_l:Mesh2
+        weight: 1
+      - path: Mortison/LeftBoot
+        weight: 1
+      - path: Mortison/LftLeg
+        weight: 1
+      - path: Mortison/RightBoot
+        weight: 1
+      - path: Mortison/RightLeg
+        weight: 1
+      - path: Mortison/shouver_l:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

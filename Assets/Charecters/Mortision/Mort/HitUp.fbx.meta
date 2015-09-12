@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: b5d815d8e58d2644b990384eb820af96
+timeCreated: 1435342283
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Center_Cloack
+    100002: Center_Cloack_1
+    100004: Center_Cloack_End
+    100006: Chest
+    100008: Coffin
+    100010: Hat
+    100012: Hat_End
+    100014: Head
+    100016: Hips
+    100018: joint14
+    100020: Left_Cloack
+    100022: Left_Cloack_1
+    100024: Left_Cloack_End
+    100026: Left_Elbow
+    100028: Left_Foot
+    100030: Left_Hand
+    100032: Left_Hand_1
+    100034: Left_Hand_End
+    100036: Left_Hip
+    100038: Left_Knee
+    100040: Left_Paunch
+    100042: Left_Shoulder
+    100044: Left_Toe
+    100046: Left_Toe_End
+    100048: Left_Tump
+    100050: Legt_Thumb_End
+    100052: Main
+    100054: Neck
+    100056: Right_Cloack
+    100058: Right_Cloack_1
+    100060: Right_Cloack_End
+    100062: Right_Elbow
+    100064: Right_Foot
+    100066: Right_Hand
+    100068: Right_Hand_1
+    100070: Right_Hip
+    100072: Right_Knee
+    100074: Right_Paunch
+    100076: Right_Shoulder
+    100078: Right_Shoulder_Helper
+    100080: Right_Toe
+    100082: Right_Toe_End
+    100084: Root
+    100086: Shouvel
+    100088: Spine_0
+    100090: Spine_1
+    100092: //RootNode
+    400000: Center_Cloack
+    400002: Center_Cloack_1
+    400004: Center_Cloack_End
+    400006: Chest
+    400008: Coffin
+    400010: Hat
+    400012: Hat_End
+    400014: Head
+    400016: Hips
+    400018: joint14
+    400020: Left_Cloack
+    400022: Left_Cloack_1
+    400024: Left_Cloack_End
+    400026: Left_Elbow
+    400028: Left_Foot
+    400030: Left_Hand
+    400032: Left_Hand_1
+    400034: Left_Hand_End
+    400036: Left_Hip
+    400038: Left_Knee
+    400040: Left_Paunch
+    400042: Left_Shoulder
+    400044: Left_Toe
+    400046: Left_Toe_End
+    400048: Left_Tump
+    400050: Legt_Thumb_End
+    400052: Main
+    400054: Neck
+    400056: Right_Cloack
+    400058: Right_Cloack_1
+    400060: Right_Cloack_End
+    400062: Right_Elbow
+    400064: Right_Foot
+    400066: Right_Hand
+    400068: Right_Hand_1
+    400070: Right_Hip
+    400072: Right_Knee
+    400074: Right_Paunch
+    400076: Right_Shoulder
+    400078: Right_Shoulder_Helper
+    400080: Right_Toe
+    400082: Right_Toe_End
+    400084: Root
+    400086: Shouvel
+    400088: Spine_0
+    400090: Spine_1
+    400092: //RootNode
+    7400000: HitUp
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HitUp
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Coffin
+        weight: 1
+      - path: Main/Root
+        weight: 1
+      - path: Main/Root/Hips
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot/Left_Toe
+        weight: 1
+      - path: Main/Root/Hips/Left_Hip/Left_Knee/Left_Foot/Left_Toe/Left_Toe_End
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot/Right_Toe
+        weight: 1
+      - path: Main/Root/Hips/Right_Hip/Right_Knee/Right_Foot/Right_Toe/Right_Toe_End
+        weight: 1
+      - path: Main/Root/Spine_0
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack/Center_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Center_Cloack/Center_Cloack_1/Center_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack/Left_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Cloack/Left_Cloack_1/Left_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Left_Paunch
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack/Right_Cloack_1
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Cloack/Right_Cloack_1/Right_Cloack_End
+        weight: 1
+      - path: Main/Root/Spine_0/Right_Paunch
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/joint14
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Hand_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Hand_1/Left_Hand_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Tump
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Left_Shoulder/Left_Elbow/Left_Hand/Left_Tump/Legt_Thumb_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head/Hat
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Neck/Head/Hat/Hat_End
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand/Right_Hand_1
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Elbow/Right_Hand/Right_Hand_1/Shouvel
+        weight: 1
+      - path: Main/Root/Spine_0/Spine_1/Chest/Right_Shoulder/Right_Shoulder_Helper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

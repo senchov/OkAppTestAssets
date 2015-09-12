@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 67751b37d6a2cb944b74342742e81f50
+timeCreated: 1440682001
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: Clavicle_left
+    100006: Clavicle_Right
+    100008: Deck
+    100010: Deck_1
+    100012: Deck_Ring_0
+    100014: Deck_Ring_1
+    100016: Deck_Ring_2
+    100018: Deck_Ring_3
+    100020: Deck_Ring_3_end
+    100022: Elbow_left
+    100024: Elbow_Right
+    100026: Foot_Left
+    100028: Foot_Right
+    100030: Hand_left
+    100032: Hand_Right
+    100034: Handle_Deck
+    100036: Head
+    100038: Hip
+    100040: Index_left_0
+    100042: Index_left_1
+    100044: Index_left_2
+    100046: Index_left_End
+    100048: Index_left_End.001
+    100050: Index_left_End.001_end
+    100052: Index_left_End_end
+    100054: Index_Right_0
+    100056: Index_Right_1
+    100058: Index_Right_1.001
+    100060: Index_Right_2
+    100062: Index_Right_End
+    100064: Index_Right_End.001
+    100066: Index_Right_End.001_end
+    100068: Index_Right_End_end
+    100070: Knee_Left
+    100072: Knee_Right
+    100074: Lamp
+    100076: Left_Scapular
+    100078: Left_Scapular_end
+    100080: Leg_Left
+    100082: Leg_Right
+    100084: mandible
+    100086: mandible_end
+    100088: mandible_end_end
+    100090: Neck
+    100092: Nose
+    100094: Nose_Ring
+    100096: Nose_Ring_end
+    100098: Pinky_left_0
+    100100: Pinky_left_1
+    100102: Pinky_left_2
+    100104: Pinky_left_End
+    100106: Pinky_left_End_end
+    100108: Pinky_Right_0
+    100110: Pinky_Right_1
+    100112: Pinky_Right_2
+    100114: Pinky_Right_End
+    100116: Pinky_Right_End_end
+    100118: polySurface1
+    100120: polySurface12
+    100122: polySurface13
+    100124: polySurface16
+    100126: polySurface17
+    100128: polySurface18
+    100130: polySurface19
+    100132: polySurface38
+    100134: polySurface39
+    100136: polySurface52
+    100138: polySurface53
+    100140: polySurface65
+    100142: polySurface66
+    100144: polySurface8
+    100146: polySurface9
+    100148: Right_scapular
+    100150: Right_scapular_end
+    100152: Root
+    100154: Shoulder_left
+    100156: Shoulder_Right
+    100158: Skirt_0_Back
+    100160: Skirt_0_Front
+    100162: Skirt_1_Back
+    100164: Skirt_1_Front
+    100166: Skirt_2_Back
+    100168: Skirt_2_Front
+    100170: Skirt_3_Back
+    100172: Skirt_3_Front
+    100174: Skirt_4_Back
+    100176: Skirt_4_Front
+    100178: Skirt_5_Back
+    100180: Skirt_5_Back_end
+    100182: Skirt_End_Front
+    100184: Skirt_End_Front_end
+    100186: Skirt_Front_CTRL
+    100188: Spine_0
+    100190: Spine_1
+    100192: Spine_2
+    100194: Spine_3
+    100196: Spine_4
+    100198: T_:polySurface1
+    100200: Taur
+    100202: Thumb_left_0
+    100204: Thumb_left_1
+    100206: Thumb_Right_0
+    100208: Toe_Left
+    100210: Toe_Left_End
+    100212: Toe_Left_End_end
+    100214: Toe_Right
+    100216: Toe_Right_End
+    100218: Toe_Right_End_end
+    100220: //RootNode
+    400000: Armature
+    400002: Camera
+    400004: Clavicle_left
+    400006: Clavicle_Right
+    400008: Deck
+    400010: Deck_1
+    400012: Deck_Ring_0
+    400014: Deck_Ring_1
+    400016: Deck_Ring_2
+    400018: Deck_Ring_3
+    400020: Deck_Ring_3_end
+    400022: Elbow_left
+    400024: Elbow_Right
+    400026: Foot_Left
+    400028: Foot_Right
+    400030: Hand_left
+    400032: Hand_Right
+    400034: Handle_Deck
+    400036: Head
+    400038: Hip
+    400040: Index_left_0
+    400042: Index_left_1
+    400044: Index_left_2
+    400046: Index_left_End
+    400048: Index_left_End.001
+    400050: Index_left_End.001_end
+    400052: Index_left_End_end
+    400054: Index_Right_0
+    400056: Index_Right_1
+    400058: Index_Right_1.001
+    400060: Index_Right_2
+    400062: Index_Right_End
+    400064: Index_Right_End.001
+    400066: Index_Right_End.001_end
+    400068: Index_Right_End_end
+    400070: Knee_Left
+    400072: Knee_Right
+    400074: Lamp
+    400076: Left_Scapular
+    400078: Left_Scapular_end
+    400080: Leg_Left
+    400082: Leg_Right
+    400084: mandible
+    400086: mandible_end
+    400088: mandible_end_end
+    400090: Neck
+    400092: Nose
+    400094: Nose_Ring
+    400096: Nose_Ring_end
+    400098: Pinky_left_0
+    400100: Pinky_left_1
+    400102: Pinky_left_2
+    400104: Pinky_left_End
+    400106: Pinky_left_End_end
+    400108: Pinky_Right_0
+    400110: Pinky_Right_1
+    400112: Pinky_Right_2
+    400114: Pinky_Right_End
+    400116: Pinky_Right_End_end
+    400118: polySurface1
+    400120: polySurface12
+    400122: polySurface13
+    400124: polySurface16
+    400126: polySurface17
+    400128: polySurface18
+    400130: polySurface19
+    400132: polySurface38
+    400134: polySurface39
+    400136: polySurface52
+    400138: polySurface53
+    400140: polySurface65
+    400142: polySurface66
+    400144: polySurface8
+    400146: polySurface9
+    400148: Right_scapular
+    400150: Right_scapular_end
+    400152: Root
+    400154: Shoulder_left
+    400156: Shoulder_Right
+    400158: Skirt_0_Back
+    400160: Skirt_0_Front
+    400162: Skirt_1_Back
+    400164: Skirt_1_Front
+    400166: Skirt_2_Back
+    400168: Skirt_2_Front
+    400170: Skirt_3_Back
+    400172: Skirt_3_Front
+    400174: Skirt_4_Back
+    400176: Skirt_4_Front
+    400178: Skirt_5_Back
+    400180: Skirt_5_Back_end
+    400182: Skirt_End_Front
+    400184: Skirt_End_Front_end
+    400186: Skirt_Front_CTRL
+    400188: Spine_0
+    400190: Spine_1
+    400192: Spine_2
+    400194: Spine_3
+    400196: Spine_4
+    400198: T_:polySurface1
+    400200: Taur
+    400202: Thumb_left_0
+    400204: Thumb_left_1
+    400206: Thumb_Right_0
+    400208: Toe_Left
+    400210: Toe_Left_End
+    400212: Toe_Left_End_end
+    400214: Toe_Right
+    400216: Toe_Right_End
+    400218: Toe_Right_End_end
+    400220: //RootNode
+    4300000: polySurface17
+    4300002: polySurface9
+    4300004: polySurface13
+    4300006: polySurface65
+    4300008: polySurface66
+    4300010: polySurface39
+    4300012: polySurface19
+    4300014: polySurface53
+    4300016: polySurface1
+    7400000: Walk
+    9500000: //RootNode
+    13700000: polySurface1
+    13700002: polySurface13
+    13700004: polySurface17
+    13700006: polySurface19
+    13700008: polySurface39
+    13700010: polySurface53
+    13700012: polySurface65
+    13700014: polySurface66
+    13700016: polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|Armature|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left/Knee_Left
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left/Knee_Left/Foot_Left
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left/Knee_Left/Foot_Left/Toe_Left
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left/Knee_Left/Foot_Left/Toe_Left/Toe_Left_End
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Left/Knee_Left/Foot_Left/Toe_Left/Toe_Left_End/Toe_Left_End_end
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right/Knee_Right
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right/Knee_Right/Foot_Right
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right/Knee_Right/Foot_Right/Toe_Right
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right/Knee_Right/Foot_Right/Toe_Right/Toe_Right_End
+        weight: 1
+      - path: Armature/Root/Hip/Leg_Right/Knee_Right/Foot_Right/Toe_Right/Toe_Right_End/Toe_Right_End_end
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back/Skirt_2_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back/Skirt_2_Back/Skirt_3_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back/Skirt_2_Back/Skirt_3_Back/Skirt_4_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back/Skirt_2_Back/Skirt_3_Back/Skirt_4_Back/Skirt_5_Back
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Back/Skirt_1_Back/Skirt_2_Back/Skirt_3_Back/Skirt_4_Back/Skirt_5_Back/Skirt_5_Back_end
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front/Skirt_2_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front/Skirt_2_Front/Skirt_3_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front/Skirt_2_Front/Skirt_3_Front/Skirt_4_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front/Skirt_2_Front/Skirt_3_Front/Skirt_4_Front/Skirt_End_Front
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_0_Front/Skirt_1_Front/Skirt_2_Front/Skirt_3_Front/Skirt_4_Front/Skirt_End_Front/Skirt_End_Front_end
+        weight: 1
+      - path: Armature/Root/Hip/Skirt_Front_CTRL
+        weight: 1
+      - path: Armature/Root/Spine_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Left_Scapular
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Left_Scapular/Left_Scapular_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Index_left_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Index_left_0/Index_left_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Index_left_0/Index_left_1/Index_left_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Index_left_0/Index_left_1/Index_left_2/Index_left_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Index_left_0/Index_left_1/Index_left_2/Index_left_End/Index_left_End_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Pinky_left_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Pinky_left_0/Pinky_left_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Pinky_left_0/Pinky_left_1/Pinky_left_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Pinky_left_0/Pinky_left_1/Pinky_left_2/Pinky_left_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Pinky_left_0/Pinky_left_1/Pinky_left_2/Pinky_left_End/Pinky_left_End_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Thumb_left_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Thumb_left_0/Thumb_left_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Thumb_left_0/Thumb_left_1/Index_left_End.001
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_left/Shoulder_left/Elbow_left/Hand_left/Thumb_left_0/Thumb_left_1/Index_left_End.001/Index_left_End.001_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Right_scapular
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Right_scapular/Right_scapular_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1/Deck_Ring_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1/Deck_Ring_0/Deck_Ring_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1/Deck_Ring_0/Deck_Ring_1/Deck_Ring_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1/Deck_Ring_0/Deck_Ring_1/Deck_Ring_2/Deck_Ring_3
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Handle_Deck/Deck/Deck_1/Deck_Ring_0/Deck_Ring_1/Deck_Ring_2/Deck_Ring_3/Deck_Ring_3_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Index_Right_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Index_Right_0/Index_Right_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Index_Right_0/Index_Right_1/Index_Right_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Index_Right_0/Index_Right_1/Index_Right_2/Index_Right_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Index_Right_0/Index_Right_1/Index_Right_2/Index_Right_End/Index_Right_End_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Pinky_Right_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Pinky_Right_0/Pinky_Right_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Pinky_Right_0/Pinky_Right_1/Pinky_Right_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Pinky_Right_0/Pinky_Right_1/Pinky_Right_2/Pinky_Right_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Pinky_Right_0/Pinky_Right_1/Pinky_Right_2/Pinky_Right_End/Pinky_Right_End_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Thumb_Right_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Thumb_Right_0/Index_Right_1.001
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Thumb_Right_0/Index_Right_1.001/Index_Right_End.001
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Clavicle_Right/Shoulder_Right/Elbow_Right/Hand_Right/Thumb_Right_0/Index_Right_1.001/Index_Right_End.001/Index_Right_End.001_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/mandible
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/mandible/mandible_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/mandible/mandible_end/mandible_end_end
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/Nose
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/Nose/Nose_Ring
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Spine_4/Neck/Head/Nose/Nose_Ring/Nose_Ring_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface9
+        weight: 1
+      - path: polySurface13
+        weight: 1
+      - path: polySurface17
+        weight: 1
+      - path: polySurface19
+        weight: 1
+      - path: polySurface39
+        weight: 1
+      - path: polySurface53
+        weight: 1
+      - path: polySurface65
+        weight: 1
+      - path: polySurface66
+        weight: 1
+      - path: Taur
+        weight: 1
+      - path: Taur/T_:polySurface1
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8/polySurface12
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8/polySurface12/polySurface16
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8/polySurface12/polySurface16/polySurface18
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8/polySurface12/polySurface16/polySurface18/polySurface38
+        weight: 1
+      - path: Taur/T_:polySurface1/polySurface8/polySurface12/polySurface16/polySurface18/polySurface38/polySurface52
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
