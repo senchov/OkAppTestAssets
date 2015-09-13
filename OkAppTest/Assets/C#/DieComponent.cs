@@ -7,9 +7,17 @@ public class DieComponent : MonoBehaviour
 	private float
 		_descentSpeed;
 
+	[SerializeField]
+	private Unit
+		_unit;
+
 	private Animator _anim;
 	private MoveComponent _moveComponent;
 	private BoxCollider _box;
+
+	public Unit Unit {
+		get { return _unit;}
+	}
 
 	private void Awake ()
 	{
@@ -83,4 +91,10 @@ public class DieComponent : MonoBehaviour
 		CancelInvoke ();
 	}
 
+}
+
+public enum Unit
+{
+	Enemy,
+	Civil
 }

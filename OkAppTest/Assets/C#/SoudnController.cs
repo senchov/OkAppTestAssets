@@ -5,6 +5,10 @@ public class SoudnController : MonoBehaviour
 {
 	
 	[SerializeField]
+	private InputController
+		_inputController;
+
+	[SerializeField]
 	private GameController
 		_gameCntrl;
 
@@ -31,8 +35,8 @@ public class SoudnController : MonoBehaviour
 			return;
 		}
 
-		if (!_gameCntrl) {
-			Debug.Log ("GameController is null");
+		if (!_inputController) {
+			Debug.Log ("InputController is null");
 			return;
 		}
 
@@ -50,14 +54,22 @@ public class SoudnController : MonoBehaviour
 			Debug.Log ("UIManager is null");
 			return;
 		}
+
+		if (!_gameCntrl) {
+			Debug.Log ("GameController is null");
+			return;
+		}
 		#endregion
 
-		_gameCntrl.KillUnit += HandleKillUnit;
+		_inputController.KillUnit += HandleKillUnit;
 		_uiManager.Explosion += HandleExplosion;
 	}
 
 	private void HandleExplosion ()
 	{
+		if (_gameCntrl.BombAmount <= 0)
+			return;
+
 		_audioSource.clip = _explosionSound;
 		_audioSource.Play ();
 	}
@@ -70,8 +82,8 @@ public class SoudnController : MonoBehaviour
 
 	private void OnDestroy ()
 	{
-		if (_gameCntrl)
-			_gameCntrl.KillUnit -= HandleKillUnit;
+		if (_inputController)
+			_inputController.KillUnit -= HandleKillUnit;
 
 		if (_uiManager)
 			_uiManager.Explosion -= HandleExplosion;

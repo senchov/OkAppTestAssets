@@ -17,25 +17,28 @@ public class RotateComponent : MoveComponent
 		DetermineTurnPoint ();
 	}
 
-	private void FixedUpdate ()
+	protected override void Move ()
 	{
+		base.Move ();
+
 		if (!_gameCtrl) {
 			return;
 		}
-
+		
 		if (!_alreadyTurn && transform.position.z > _turnPoint) {
 			Turn ();
 			_alreadyTurn = true;
 		}
-
+		
 		if (transform.position.x + _gameCtrl.UnitSize * 0.5f > _gameCtrl.Right.position.x) {
 			transform.rotation = Quaternion.Euler (new Vector3 (0, _turnAngles [_turnAngles.Length - 1], 0));
 		}
-
+		
 		if (transform.position.x - _gameCtrl.UnitSize * 0.5f < _gameCtrl.Left.position.x) {
 			transform.rotation = Quaternion.Euler (new Vector3 (0, _turnAngles [0], 0));
 		}
 	}
+
 
 	private void DetermineTurnPoint ()
 	{

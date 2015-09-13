@@ -46,6 +46,10 @@ public class GameController : MonoBehaviour
 	private float
 		_explosionRadius;
 
+	[SerializeField]
+	private InputController
+		_inputCntrl;
+
 	private float _unitSize = 2.26f;
 	private float _spawnTime = 2;
 	private float _minTimeSpawn = 1;
@@ -94,8 +98,10 @@ public class GameController : MonoBehaviour
 
 	private void LevelUpHandler ()
 	{
-		if (LevelUp != null)
+		if (LevelUp != null) {
 			LevelUp ();
+
+		}
 	}
 
 	public event Action LoseGame;
@@ -176,6 +182,11 @@ public class GameController : MonoBehaviour
 			Debug.Log ("Explosion Particle is null");
 			return;
 		}
+
+		if (!_inputCntrl) {
+			Debug.Log ("InputController is null");
+			return;
+		}
 		#endregion
 	
 		DetermineBorders ();
@@ -188,24 +199,12 @@ public class GameController : MonoBehaviour
 		_uiManager.TimeIsOver += HandleTimeIsOver;
 		_uiManager.Restart += HandleRestart;
 		_uiManager.Explosion += HandleExplosion;
-		LevelUp += LeveUpMethod;
-		LoseGame += LoseGameMethod;
+
+		_inputCntrl.LoseGame += LoseGameMethod;
 
 
 	}
 
-
-	private void LateUpdate ()
-	{
-#if UNITY_ANDROID
-		TouchControll ();
-#elif UNITY_EDITOR
-		if (Input.GetMouseButtonDown (0)) {
-			RaycastMethod (Input.mousePosition);
-		}
-#endif
-
-	}
 
 	private void SpawnUnits ()
 	{
@@ -250,16 +249,6 @@ public class GameController : MonoBehaviour
 		Ray ray = _myCamera.ScreenPointToRay (temp);
 		
 		if (Physics.Raycast (ray, out hit)) {
-			if (hit.collider.tag == "Unit") {
-				DieComponent dieComp = hit.collider.gameObject.GetComponent <DieComponent> ();
-				dieComp.Die ();
-				KillUnitHandler ();
-			}
-
-			if (hit.collider.tag == "Civil") {
-				LoseGameHandler ();
-			}
-
 			return hit.point;
 		}
 
@@ -283,12 +272,14 @@ public class GameController : MonoBehaviour
 	private void HandleStartGame ()
 	{
 		_units.Add (_unit_1); 
+		_bombAmount = 3;
 		InvokeRepeating ("SpawnUnits", 2, _spawnTime);
 	}
 
 	private void HandleTimeIsOver ()
 	{
 		CancelInvoke ();
+
 		StartCoroutine (IsAllEnemiesDead ());
 	}
 
@@ -341,7 +332,7 @@ public class GameController : MonoBehaviour
 		while (IsEnemiesDead () == false) {
 			yield return null;
 		}
-
+		LeveUpMethod ();
 		LevelUpHandler ();
 	}
 
@@ -359,9 +350,10 @@ public class GameController : MonoBehaviour
 	{
 		_lives--;
 
-		if (_lives < 0)
+		if (_lives < 0) {
 			LoseGameHandler ();
-		else
+			LoseGameMethod ();
+		} else
 			LoseLifeEventHandler (_lives + 1);
 	}
 
@@ -392,8 +384,9 @@ public class GameController : MonoBehaviour
 			_uiManager.Explosion -= HandleExplosion;
 		}
 
-		LevelUp -= LeveUpMethod;
-		LoseGame -= LoseGameMethod;
+
+		if (_inputCntrl)
+			_inputCntrl.LoseGame -= LoseGameMethod;
 	}
 
 }

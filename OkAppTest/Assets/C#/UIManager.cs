@@ -46,6 +46,10 @@ public class UIManager : MonoBehaviour
 	private UILabel
 		_bombAmounText;
 
+	[SerializeField]
+	private InputController
+		_inputCntrl;
+
 	private bool _isTime = false;
 	#endregion
 
@@ -128,6 +132,11 @@ public class UIManager : MonoBehaviour
 			Debug.Log ("Bomb label is null");
 			return;
 		}
+
+		if (!_inputCntrl) {
+			Debug.Log ("Input Controller is null");
+			return;
+		}
 		#endregion
 
 		_startView.SetActive (true);
@@ -139,6 +148,7 @@ public class UIManager : MonoBehaviour
 
 		_gameCntrl.LevelUp += ChoseView;
 		_gameCntrl.LoseGame += HandleLoseGame;
+		_inputCntrl.LoseGame += HandleLoseGame;
 		_gameCntrl.LoseLifeEvent += HandleLoseLifeEvent;
 	}
 
@@ -215,10 +225,7 @@ public class UIManager : MonoBehaviour
 	{
 		RestartHandler ();
 		TurnOffWindow (_loseView);
-		for (int i = 0; i < _hearts.Length; i++) {
-			_hearts [i].SetActive (true);
-		}
-
+		TurnOnHearts ();
 	}
 
 	public void BombButtonPress ()
@@ -234,6 +241,13 @@ public class UIManager : MonoBehaviour
 		_timeSlider.value = 1;
 		StartGameHandler ();
 		StartCoroutine (TimeSlide ());
+	}
+
+	private void TurnOnHearts ()
+	{
+		for (int i = 0; i < _hearts.Length; i++) {
+			_hearts [i].SetActive (true);
+		}
 	}
 
 	private void OmDestroy ()

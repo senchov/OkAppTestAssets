@@ -5,7 +5,7 @@ public class MoveComponent : MonoBehaviour
 {
 
 	[SerializeField]
-	private float
+	protected float
 		_speed;
 
 	[SerializeField]
@@ -40,9 +40,14 @@ public class MoveComponent : MonoBehaviour
 
 	private void Update ()
 	{
+		Move ();
+	}
+
+	protected virtual void Move ()
+	{
 		transform.Translate (transform.forward * Time.deltaTime * _speed);
-
-
+		
+		
 		if (_gameCtrl && transform.position.z > _gameCtrl.Bottom.position.z + 2 * _gameCtrl.UnitSize) {
 			gameObject.SetActive (false);
 			if (_isEnemy)
