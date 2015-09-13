@@ -49,6 +49,7 @@
      <Compile Include="Assets\C#\GameController.cs" />
      <Compile Include="Assets\C#\MoveComponent.cs" />
      <Compile Include="Assets\C#\RotateComponent.cs" />
+     <Compile Include="Assets\C#\SoudnController.cs" />
      <Compile Include="Assets\C#\UIManager.cs" />
      <Compile Include="Assets\C#\UpgratedObjPool.cs" />
      <Compile Include="Assets\Charecters\Ganosh\C#\CameraController.cs" />

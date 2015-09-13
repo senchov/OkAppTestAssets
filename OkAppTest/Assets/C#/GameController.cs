@@ -54,7 +54,6 @@ public class GameController : MonoBehaviour
 	private int _level = 1;
 	private int _bombAmount = 3;
 	private Vector3[] _spawnPoints;
-	private AudioSource _panchSound;
 
 	private List <GameObject> _units;
 	private List <GameObject> _enemies;
@@ -114,11 +113,18 @@ public class GameController : MonoBehaviour
 		if (LoseLifeEvent != null)
 			LoseLifeEvent (temp);
 	}
+
+	public event Action KillUnit;
+
+	private void KillUnitHandler ()
+	{
+		if (KillUnit != null)
+			KillUnit ();
+	}
 	#endregion
 
 	private void Awake ()
 	{
-		_panchSound = gameObject.GetComponent <AudioSource> ();
 
 		#region NullCheck
 		if (!_top) {
@@ -168,11 +174,6 @@ public class GameController : MonoBehaviour
 
 		if (!_explosion) {
 			Debug.Log ("Explosion Particle is null");
-			return;
-		}
-
-		if (!_panchSound) {
-			Debug.Log ("PunchSound is null");
 			return;
 		}
 		#endregion
@@ -252,7 +253,7 @@ public class GameController : MonoBehaviour
 			if (hit.collider.tag == "Unit") {
 				DieComponent dieComp = hit.collider.gameObject.GetComponent <DieComponent> ();
 				dieComp.Die ();
-				_panchSound.Play ();
+				KillUnitHandler ();
 			}
 
 			if (hit.collider.tag == "Civil") {
@@ -309,7 +310,6 @@ public class GameController : MonoBehaviour
 			if (temp < _explosionRadius && _enemies [i].tag == "Unit") {
 				DieComponent die = _enemies [i].GetComponent <DieComponent> ();
 				die.Die ();
-				print (_enemies [i].name);
 			}
 		}
 
